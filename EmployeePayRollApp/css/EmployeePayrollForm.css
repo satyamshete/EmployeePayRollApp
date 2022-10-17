@@ -1,0 +1,153 @@
+.header-container{
+    display: flex;
+    font: normal normal bold 22px/25px Montserrat;
+    
+    align-items: center; 
+    /* to get center with  ref to image height */
+    margin-left: 120px;
+    padding: 10px;
+}
+.text-container
+{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #42515F;
+    
+   
+
+}
+.empl-text
+{
+    color: #82A70C;
+}
+form
+{
+    margin: 2em 4em;
+    background-color: #FFFFFF;
+}
+body
+{
+    background-color: #F7F7F7;
+}
+header
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.Form-title
+{
+    padding-left: 3em;
+    padding-top: 0.5em;
+    color: #42515F;
+}
+.form-elements
+{
+    display: flex;
+    padding: 20px;
+    /* justify-content: space-between; */
+    align-items: center; 
+    margin-left: 13px;
+
+}
+#name
+{
+    width: 600px;
+    height: 25px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+}
+label, p, option, select, .salaryError
+{
+    color: #42515F;
+    font: normal normal normal 18px/24px Roboto;
+
+}
+.Image-class
+{
+    display: flex;
+    /* align-items: center; */
+    margin-right: 50px;
+    
+}
+img
+{
+    width: 45px;
+    height: 45px;
+    padding-left: 10px;   
+}
+label
+{
+    width: 20%;
+    margin-left: 15px;
+
+}
+.space-between
+{
+    width: 60%;
+    display: flex;
+}
+p{
+    margin-left: 15px;
+}
+#salary
+{
+    width: 30vw;
+}
+.StartDate
+{
+    display: flex;
+    width: 20%;
+}
+.Day, .Month, .Year
+{
+    width: 100px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0px 5px;
+}
+#notes
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    width: 600px;
+}
+form
+{
+    width:55%;
+    margin: 20px auto;
+}
+a, .submit, .reset
+{
+    
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    border: 1px solid #BDBDBD;
+    padding: 8px 16px;
+    text-decoration: none;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    width: 80px;
+    text-align: center;
+    border-radius: 3px;
+}
+a:hover, .submit:hover, .reset:hover
+{
+    background-color: gray;
+}
+.buttons
+{
+    width: 690px;
+    text-align: right;
+}
+.submit, .reset
+{
+    margin: 0px 10px;
+}
+
+
+
+
+
